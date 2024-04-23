@@ -16,7 +16,7 @@ export default function App() {
           <div className="owner bg-blue rounded-2xl px-7 py-5 sm:p-7 sm:pb-20 flex gap-4 sm:gap-0 items-center sm:items-start sm:flex-col">
             <img
               src={JeremyImg}
-              className="w-12 h-12 sm:w-24 sm:h-24 border-white sm:border-4 border-[3px] rounded-full"
+              className="w-14 h-14 sm:w-24 sm:h-24 border-white sm:border-4 border-[3px] rounded-full"
               alt=""
             />
             <div className="report-for-owner sm:mt-8">
