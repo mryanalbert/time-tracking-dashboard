@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Rubik";
+  color: white;
+  font-size: 18px;
+}
+
+.bg-blue {
+  background-color: hsl(246, 80%, 60%);
+}
+
+.bg-light-red {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.bg-soft-blue {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.bg-light-red {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.bg-lime-green {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.bg-violet {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.bg-soft-orange {
+  background-color: hsl(43, 84%, 65%);
+}
+
+.bg-very-dark-blue {
+  background-color: hsl(226, 43%, 10%);
+}
+
+.bg-dark-blue {
+  background-color: hsl(235, 46%, 20%);
+}
+
+.bg-desaturated-blue {
+  background-color: hsl(235, 45%, 61%);
+}
+.text-desaturated-blue {
+  color: hsl(235, 45%, 61%);
+}
+
+.bg-pale-blue {
+  background-color: hsl(236, 100%, 87%);
+}
+.text-pale-blue {
+  color: hsl(236, 100%, 87%);
+}
+
+:hover.card {
+  background-color: #34387a;
+}
+
+.tracker {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
